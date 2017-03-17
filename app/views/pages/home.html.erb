@@ -10,7 +10,10 @@ not displayed. The information between the BODY and /BODY tags is displayed.-->
 </head>
 <!-- The information between the BODY and /BODY tags is displayed.-->
 <body>
-<h1>This is the HomePage of my Blog</h1>
+<div class="center jumbotron">
+  <h1>Alpha Blog</h1>
+  <%= link_to "Sign up now", "#", class: "btn-primary btn-lg" %>
+</div>
 
 <p>Its my first Rails Project</p>
 <p><%= link_to image_tag('smiley_face.png'), 'www.greedyhippy.com' %></p>
